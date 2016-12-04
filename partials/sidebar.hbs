@@ -3,36 +3,28 @@
     {{#is "home"}}
     {{else}}
         <div class="widget sidebar-featured">
-            <h4 class="sidebar-featured-header">Troy Hunt</h4>
+            <h4 class="sidebar-featured-header">Rob Pickering</h4>
             <p>{{@blog.description}} <a href="/about" class="article_link-more fa fa-long-arrow-right"></a></p>
         </div>
     {{/is}}
     
     <div class="widget sidebar-featured">
         <h4 class="sidebar-featured-header">Upcoming Events</h4>
-        <p>I usually run <a href="/workshops">private workshops</a> around these, here's the upcoming public events I'll be at:</p>
+        <p>I do a lot of speaking engagements for ServiceNow, here is where you can find me:</p>
         <ol>
-            <li><a href="http://www.ipadpaloozagc.com/">iPadlooza: 28-29 Sep, Gold Coast (Australia)</a></li>
-            <li><a href="http://www.scotlandis.com/events/2016/october/scotsoft2016/">ScotlandIS: 6 Oct, Edinburgh (United Kingdom)</li>
-            <li><a href="http://www.cnug.dk/workshops/hack-yourself-first-with-troy-hunt/">Workshop: Hack Yourself First: How to go on the Cyber-Offence: 11-12 Oct, Copenhagen (Denmark)</a></li>
-            <li><a href="https://www.eventbrite.co.uk/e/hack-yourself-first-with-troy-hunt-tickets-27690145972">Workshop: Hack Yourself First: How to go on the Cyber-Offence: 13-14 Oct, London (United Kingdom)</a></li>
-            <li><a href="https://www.swisscyberstorm.com/conference/">Swiss Cyber Storm: 19 Oct, Lucern (Switzerland)</a></li>
-            <li><a href="http://www.wiredevent.co.uk/wired-security">WIRED SECURITY: 20 Oct, London (United Kingdom)</a></li>
-            <li><a href="https://goldcoast2016.drupal.org.au">DrupalSouth: 27-28 Oct, Gold Coast (Australia)</a></li>
-            <li><a href="http://dddbrisbane.com/">DDD: 3 Dec, Brisbane (Australia)</a></li>
-            <li><a href="http://ndc-london.com/workshops/">Workshop: Hack Yourself First: How to go on the Cyber-Offence: 16-17 Jan, London (United Kingdom)</a></li>
-            <li><a href="http://ndc-london.com/">NDC London: 18-20 Jan, London (United Kingdom)</a></li>
-            <li><a href="https://www.zionsecurity.com/workshop-2017">Workshop: Hack Yourself First: How to go on the Cyber-Offence: 25-26 Jan, Leuven (Belgium)</a></li>
-            <li><a href="https://www.zionsecurity.com/conference-2016">ZIONSECURITY Conference: 27 Jan, Leuven (Belgium)</a></li>
+            <li><a href="http://www.hmgstrategy.com/events/home.asp?eventID=129">HMG 2016 CIO Executive Leadership Summit: 17 Nov, Huntington Beach, CA</a></li>
+            <li><a href="http://www.evanta.com/cio/summits/washington-dc/">Evanta CIO Executive Summit: 29 Nov, Washington D.C.</a></li>
+            <li><a href="http://www.evanta.com/cio/summits/new-jersey">Evanta CIO Executive Summit: 30 Nov, New Jersey</a></li>
         </ol>
     </div>
-    
-    <div class="widget sidebar-featured ad">
-      <div id="ad1" class="panel" data-type="ad" data-publisher="lqm.troyhunt.site" data-zone="ron" data-format="300x250"></div>
-    </div>
 
+<!--    
+    <div class="widget sidebar-featured ad">
+      <div id="ad1" class="panel" data-type="ad" data-publisher="lqm.robpickering.site" data-zone="ron" data-format="300x250"></div>
+    </div>
+-->
     <div class="widget sidebar-featured">
-        <h4 class="sidebar-featured-header">Must Read</h4>
+        <h4 class="sidebar-featured-header">Top Reads</h4>
         {{#get "posts" limit="all" filter="featured:true"}}
             <ul>
             {{#foreach posts}}
@@ -43,20 +35,9 @@
             {{#if @error}}{{@error}}{{/if}}
         {{/get}}
     </div>
-    
-    <div class="widget sidebar-featured">
-        <h4 class="sidebar-featured-header">Top Pluralsight Courses</h4>
-        <ol>
-            <li><a href="https://app.pluralsight.com/library/courses/owasp-top10-aspdotnet-application-security-risks/table-of-contents">OWASP Top 10 Web Application Security Risks for ASP.NET</a></li>
-            <li><a href="https://app.pluralsight.com/library/courses/hack-yourself-first">Hack Yourself First: How to go on the Cyber-Offense</a></li>
-            <li><a href="https://app.pluralsight.com/library/courses/ethical-hacking-social-engineering/table-of-contents">Ethical Hacking: Social Engineering</a></li>
-            <li><a href="https://app.pluralsight.com/library/courses/modernizing-websites-microsoft-azure/table-of-contents">Modernizing Your Websites with Azure Platform as a Service</a></li>
-            <li><a href="https://www.pluralsight.com/courses/browser-security-headers">Introduction to Browser Security Headers</a></li>
-        </ol>
-    </div>
-    
+<!--     
     <div class="widget sidebar-featured ad">
-      <div id="ad2" class="panel" data-type="ad" data-publisher="lqm.troyhunt.site" data-zone="ron" data-format="160x600"></div>
+      <div id="ad2" class="panel" data-type="ad" data-publisher="lqm.robpickering.site" data-zone="ron" data-format="160x600"></div>
     </div>
-
+-->
 </div>

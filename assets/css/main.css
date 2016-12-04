@@ -65,12 +65,32 @@ blockquote, q
   quotes: none;
 }
 
-  blockquote:after, blockquote:before, q:after, q:before
-  {
-    content: "";
-    content: none;
-  }
+blockquote:after, blockquote:before, q:after, q:before
+{
+  content: "";
+  content: none;
+}
 
+blockquote.reply {
+  font: 14px/22px normal helvetica, sans-serif;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 50px;
+  padding-left: 15px;
+  border-left: 3px solid #ccc;
+} 
+
+.pull {
+	float: right;
+	margin-left: 15px;
+	width: 150px;
+	font-size: 18px;
+	line-height: 18px;
+	color: #655c9d;
+	margin-top: -12px;
+}
+
+}
 a img
 {
   border: none;
