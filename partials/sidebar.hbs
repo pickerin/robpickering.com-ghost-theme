@@ -9,8 +9,8 @@
     {{/is}}
     
     <div class="widget sidebar-featured">
-        <h4 class="sidebar-featured-header">Upcoming Events</h4>
-        <p>I do a lot of speaking engagements for ServiceNow, here is where you can find me:</p>
+        <h4 class="sidebar-featured-header">Past Events</h4>
+        <p>I do a lot of speaking engagements for ServiceNow, here some I've done recently:</p>
         <ol>
             <li><a href="http://www.hmgstrategy.com/events/home.asp?eventID=129">HMG 2016 CIO Executive Leadership Summit: 17 Nov, Huntington Beach, CA</a></li>
             <li><a href="http://www.evanta.com/cio/summits/washington-dc/">Evanta CIO Executive Summit: 29 Nov, Washington D.C.</a></li>
@@ -35,6 +35,16 @@
             {{#if @error}}{{@error}}{{/if}}
         {{/get}}
     </div>
+    
+    <div class="display tags">
+          <h4 class="sidebar-title">Tags Category</h5>
+          {{#get "tags"}}
+            {{#foreach tags}}
+              <a href="{{url}}">{{name}}</a>
+            {{/foreach}}
+          {{/get}}
+    </div>
+    
 <!--     
     <div class="widget sidebar-featured ad">
       <div id="ad2" class="panel" data-type="ad" data-publisher="lqm.robpickering.site" data-zone="ron" data-format="160x600"></div>
